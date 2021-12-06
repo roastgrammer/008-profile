@@ -1,17 +1,15 @@
 {
-  "name": "profile-card",
+  "name": "profile",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
   "main": "index.js",
   "scripts": {
-    "start": "parcel"
+    "sass": "node-sass -w sass/ -o css --recursive"
   },
   "keywords": [],
   "author": "amirmohammad",
   "license": "ISC",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1"
+  "dependencies": {
+    "node-sass": "^7.0.0"
   }
 }
